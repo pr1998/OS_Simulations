@@ -8,7 +8,7 @@ int main()
 	printf("Enter the no of processes:");
 	scanf("%d",&n);
 	int tq;
-	printf("Enter Time Quantun:");
+	printf("Enter Time Quantum:");
 	scanf("%d",&tq);
 	int arrive[n],burst[n],burst2[n],complete[n],tat[n],wait[n];
 	printf("Enter the arrival time for each process one by one:");
